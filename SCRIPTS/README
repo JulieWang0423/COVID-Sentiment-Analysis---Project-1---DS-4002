@@ -1,0 +1,3 @@
+This folder contains all the source code for your project.
+Include all the scripts you used. Try to name each script according to the order it needs to be executed to reproduce the results.
+All script files should include header comments at the beginning of a script to provide information that anyone working with or executing the script should be aware of. Throughout all your scripts, you should include copious comments explaining what each command or sequence of commands accomplishes and what the purpose is.
