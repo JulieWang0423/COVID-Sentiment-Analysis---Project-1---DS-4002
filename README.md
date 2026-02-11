@@ -32,6 +32,6 @@ pip install matplotlib
 ```
 
 ## Reproduction
-BERT:
+BERT (*warning:* model is very large so may take HOURS):
 1. Make sure to run the dependency installers above.
 2. Run `python3 SCRIPTS/eval_bert.py` in terminal and let it infer for a while.
