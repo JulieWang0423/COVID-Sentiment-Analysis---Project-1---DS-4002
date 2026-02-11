@@ -158,4 +158,3 @@ if DATE_COL in df.columns:
     output_cols.insert(0, DATE_COL)
 
 df[output_cols].to_csv('textblob_predictions.csv', index=False)
-print('\nSaved: textblob_predictions.csv, textblob_metrics.csv')
