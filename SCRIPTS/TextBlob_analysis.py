@@ -71,7 +71,7 @@ print(classification_report(y_true, y_pred, labels=LABELS, zero_division=0))
 pd.DataFrame({
     'Model': ['TextBlob'], 'Accuracy': [accuracy],
     'Macro_Precision': [precision], 'Macro_Recall': [recall], 'Macro_F1': [f1_macro]
-}).to_csv('textblob_metrics.csv', index=False)
+}).to_csv('../OUTPUTS/textblob_metrics.csv', index=False)
 
 
 # Confusion matrix heatmap
