@@ -35,3 +35,5 @@ pip install matplotlib
 BERT (*warning:* model is very large so may take HOURS):
 1. Make sure to run the dependency installers above.
 2. Run `python3 SCRIPTS/eval_bert.py` in terminal and let it infer for a while.
+3. You can speed this up by using UVA's HPC OOD and giving it some GPUs. This will make it much faster.
+4. The outputs are generated at `bert_*.png` in the `OUTPUTS` directory.
