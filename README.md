@@ -32,6 +32,12 @@ pip install matplotlib
 ```
 
 ## Reproduction
+TextBlob 
+1. Make sure to run the dependency installers above.
+2. Run python3 SCRIPTS/TextBlob_analysis.py in terminal.
+3. TextBlob is a lightweight rule-based model, so it should finish within a few minutes on any machine. No GPU is required.
+4. The outputs are generated at new_textblob_*.png and new_textblob_*.csv in the OUTPUTS directory.
+
 BERT (*warning:* model is very large so may take HOURS):
 1. Make sure to run the dependency installers above.
 2. Run `python3 SCRIPTS/eval_bert.py` in terminal and let it infer for a while.
