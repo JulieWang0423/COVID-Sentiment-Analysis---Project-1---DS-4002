@@ -63,3 +63,9 @@ BERT (*warning:* model is very large so may take HOURS):
 2. Run `python3 SCRIPTS/eval_bert.py` in terminal and let it infer for a while.
 3. You can speed this up by using UVA's HPC OOD and giving it some GPUs. This will make it much faster.
 4. The outputs are generated at `bert_*.png` in the `OUTPUTS` directory.
+
+VADER 
+1. Make sure to run the dependency installers above.
+2. Run `python3 SCRIPTS/VADER_analysis.py` in terminal.
+3. VADER is a lightweight rule-based model, so it should finish within a few minutes on any machine. No GPU is required.
+4. The outputs are generated at `VADER_*.png` and `VADER_*.csv` in the `OUTPUTS` directory.
